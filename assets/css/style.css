@@ -36,13 +36,17 @@ header nav {
 }
 
 header nav ul li {
-  display: inline;
+  display: flex;
+  flex-wrap:wrap;
+  justofy-content: space-between;
+  align-items: center;
+  list-style: none;
 }
 
 header nav ul li a {
   margin: 0 30px;
   font-weight: lighter;
-  font-size: 22px;
+  font-size: 1.55vw;
 }
 
 footer {
