@@ -35,7 +35,7 @@ header nav {
   margin: 7px 0;
 }
 
-header nav ul li {
+header nav ul {
   display: flex;
   flex-wrap:wrap;
   justofy-content: space-between;
@@ -50,20 +50,23 @@ header nav ul li a {
 }
 
 footer {
+  display: flex;
+  justify-content: space-between; 
+  flex-wrap: wrap;
   background: #fce138;
   width: 100%;
   padding: 40px 35px;
 }
 
 footer h2 {
-  display: inline;
+
   color: #024e76;
   font-size: 30px;
   margin: 0;
 }
 
 footer div {
-  float: right;
+
   line-height: 1.5;
   text-align: right;
 }
